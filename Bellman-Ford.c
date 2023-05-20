@@ -89,7 +89,7 @@ void BellmanFord(struct Graph* graph, int source)
     // If we get a shorter path, then there is a negative edge cycle.
     for (i = 0; i < E; i++)
     {
-        int u = graph->edge[i].start;
+        int u = graph->edge[i].source;
  
         int v = graph->edge[i].destination;
  
