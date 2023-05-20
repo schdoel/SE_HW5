@@ -55,7 +55,7 @@ void BellmanFord(struct Graph* graph, int source)
  
     int E = graph->V;
  
-    int StoreDistance(V);
+    int StoreDistance[V];
  
     int i,j;
  
