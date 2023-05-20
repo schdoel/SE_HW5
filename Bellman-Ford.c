@@ -46,6 +46,7 @@ void FinalSolution(int dist, int n)
  
     for (i = 0; i < n; ++i){
 printf("%d \t\t %f\n", i, dist[i]);
+    }
 
 }
  
