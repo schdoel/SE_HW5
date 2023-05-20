@@ -128,7 +128,7 @@ printf("%d",&S);
         scanf("%d",&graph->edge[i].weight);
     }
  
-    BellmanFord(S, graph);
+    BellmanFord( graph, S);
 //passing created graph and source vertex to BellmanFord Algorithm function
  
     
