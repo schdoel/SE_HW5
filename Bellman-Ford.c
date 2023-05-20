@@ -100,7 +100,7 @@ void BellmanFord(struct Graph* graph, int source)
             printf("This graph contains negative edge cycle\n");
     }
  
-    finalSolution(StoreDistance, V);
+    FinalSolution(StoreDistance, V);
  
     return;
 }
