@@ -118,7 +118,7 @@ printf("Enter number of edges in graph\n");
 printf("Enter your source vertex number\n");
     scanf("%d",&S);
  
-    struct Graph* graph = createGraph(V E);    //calling the function to allocate space to these many vertices and edges
+    struct Graph* graph = createGraph(V,E);    //calling the function to allocate space to these many vertices and edges
  
     int i;
     for(i=0;i<E;i++){
