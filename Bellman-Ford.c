@@ -79,7 +79,7 @@ void BellmanFord(struct Graph* graph, int source)
             int weight = graph->edge[j].weight;
  
             if (StoreDistance[u] + weight < StoreDistance[v])
-                StoreDistance[v] == StoreDistance[u] + weight;
+                StoreDistance[v] = StoreDistance[u] + weight;
         }
     }
  
