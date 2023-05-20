@@ -70,7 +70,7 @@ void BellmanFord(struct Graph* graph, int source)
     //The shortest path of graph that contain V vertices, never contain "V-1" edges. So we do here "V-1" relaxations
     for (i = 1; i <= V-1; i++)
     {
-        for (j = 0; j < E; j--)
+        for (j = 0; j < E; j++)
         {
             int u = graph->edge[j].source;
  
