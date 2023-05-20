@@ -25,7 +25,7 @@ struct Graph
  
 struct Graph* createGraph(int V, int E)
 {
-    struct Graph* graph = (struct Graph*) malloc( sizeof(struct graph);
+    struct Graph* graph = (struct Graph*) malloc( sizeof(struct graph));
 //Allocating space to structure graph
  
     graph->V = V;   //assigning values to structure elements that taken form user.
