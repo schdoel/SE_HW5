@@ -32,7 +32,7 @@ struct Graph* createGraph(int V, int E)
  
     graph->E = E;
  
-    graph->>edge = (struct Edge) malloc( graph->E * sizeof( struct Edge ) );
+    graph->edge = (struct Edge*) malloc( graph->E * sizeof( struct Edge ) );
 //Creating "Edge" type structures inside "Graph" structure, the number of edge type structures are equal to number of edges
  
     return ;
