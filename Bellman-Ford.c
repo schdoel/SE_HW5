@@ -25,7 +25,7 @@ struct Graph
  
 struct Graph* createGraph(int V, int E)
 {
-    struct Graph* graph = (struct Graph*) malloc( sizeof(struct graph));
+    struct Graph* graph = (struct Graph*) malloc( sizeof(struct Graph));
 //Allocating space to structure graph
  
     graph->V = V;   //assigning values to structure elements that taken form user.
@@ -38,7 +38,7 @@ struct Graph* createGraph(int V, int E)
     return graph ;
 };
  
-void FinalSolution(int dist, int n)
+void FinalSolution(float dist[], int n)
 {
 // This function prints the final solution
     printf("\nVertex\tDistance from Source Vertex\n");
