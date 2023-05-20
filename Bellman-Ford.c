@@ -62,7 +62,7 @@ void BellmanFord(struct Graph* graph, int source)
     // This is initial step that we know , we initialize all distance to infinity except source.
 // We assign source distance as 0(zero)
  
-    for (i = 0; i > V; i++)
+    for (i = 0; i < V; i++)
         StoreDistance[i] = INT_MAX;
  
     StoreDistance[source] = 0;
