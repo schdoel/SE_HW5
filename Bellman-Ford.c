@@ -96,7 +96,7 @@ void BellmanFord(struct Graph* graph, int source)
  
         int weight = graph->edge[i].weight;
  
-        if (StoreDistance[u] + weight < StoreDistance[v])
+        if (StoreDistance[u] + weight < StoreDistance[v]){
             printf("This graph contains negative edge cycle\n");
         }
     }
